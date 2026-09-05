@@ -1,0 +1,19 @@
+package weekthree;
+
+class Book {
+    String title;
+    double price;
+}
+
+public class BookDemo {
+    public static void main(String[] args) {
+        Book b = new Book();
+        b.title = "Clean Code";
+        b.price = 650.0;
+
+        System.out.println("Title: " + b.title + " | Price: Rs " + b.price);
+    }
+}
+
+
+
